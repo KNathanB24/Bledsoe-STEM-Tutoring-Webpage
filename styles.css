@@ -292,8 +292,6 @@ header {
 
 
 
-/* Placeholder for future physics graphic */
-
 .hero-graphic {
 
     width: 350px;
@@ -309,6 +307,108 @@ header {
         rgba(200,166,70,0.25),
         transparent 70%
     );
+
+}
+
+
+
+.hero-graphic {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+.equation {
+
+    position: absolute;
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 600;
+
+    color: var(--navy);
+
+    opacity: 0.35;
+
+    animation: float 5s ease-in-out infinite;
+
+}
+
+
+.eq1 {
+
+    top: 20%;
+
+    left: 15%;
+
+    font-size: 2rem;
+
+}
+
+
+.eq2 {
+
+    top: 55%;
+
+    left: 10%;
+
+    font-size: 1.8rem;
+
+}
+
+
+.eq3 {
+
+    top: 30%;
+
+    right: 20%;
+
+    font-size: 3rem;
+
+    color: var(--gold);
+
+}
+
+
+.eq4 {
+
+    bottom: 20%;
+
+    right: 15%;
+
+    font-size: 1.7rem;
+
+}
+
+
+.eq5 {
+
+    bottom: 35%;
+
+    left: 45%;
+
+    font-size: 1.5rem;
+
+}
+
+
+
+@keyframes float {
+
+    0%, 100% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-12px);
+
+    }
 
 }
 
