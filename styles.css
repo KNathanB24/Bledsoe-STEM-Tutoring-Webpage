@@ -526,13 +526,15 @@ header {
 
 .about-photo {
 
-    width: 180px;
+    width: 140px;
 
-    height: 180px;
+    height: 140px;
 
     border-radius: 50%;
 
     object-fit: cover;
+
+    object-position: center 20%;
 
     flex-shrink: 0;
 
