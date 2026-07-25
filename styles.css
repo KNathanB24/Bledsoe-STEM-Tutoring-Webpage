@@ -600,57 +600,89 @@ footer {
 ===================================== */
 
 
-@media(max-width:768px){
+@media (max-width:768px){
 
+    .navbar{
+        flex-direction:column;
+        gap:1rem;
+    }
 
-.navbar {
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:.8rem;
+    }
 
-    flex-direction: column;
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:3rem 6%;
+        min-height:auto;
+    }
 
-    gap:1rem;
+    .hero-content{
+        margin-bottom:2rem;
+    }
 
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+    }
+
+    .primary-button,
+    .secondary-button{
+        width:100%;
+        max-width:260px;
+        text-align:center;
+    }
+
+    .hero-graphic{
+        width:220px;
+        height:220px;
+        margin-top:2rem;
+    }
+
+    .eq2,
+    .eq5{
+        display:none;
+    }
+
+    .eq1{
+        top:18%;
+        left:18%;
+        font-size:1.4rem;
+    }
+
+    .eq3{
+        top:28%;
+        right:18%;
+        font-size:2rem;
+    }
+
+    .eq4{
+        bottom:20%;
+        right:15%;
+        font-size:1.3rem;
+    }
+
+    .section{
+        padding:4rem 6%;
+    }
+
+    .card{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+    }
+
+    .card h3{
+        line-height:1.4;
+    }
+
+    #contact{
+        text-align:center;
+    }
 }
 
 
 
-.nav-links {
-
-    gap:1rem;
-
-}
-
-
-
-.hero {
-
-
-    flex-direction:column;
-
-
-    text-align:center;
-
-
-}
-
-
-
-.hero-buttons {
-
-    justify-content:center;
-
-}
-
-
-.hero-graphic {
-
-    margin-top:3rem;
-
-    width:250px;
-
-    height:250px;
-
-}
-
-
-
-}
