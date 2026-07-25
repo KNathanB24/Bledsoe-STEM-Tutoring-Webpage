@@ -247,6 +247,8 @@ header {
 
     transition: 0.3s;
 
+    display: inline-block;
+
 }
 
 
@@ -577,6 +579,57 @@ header {
 
 
 /* =====================================
+   Contact Section
+===================================== */
+
+#contact {
+
+    text-align: center;
+
+}
+
+#contact .section-description {
+
+    margin-bottom: 2rem;
+
+}
+
+.contact-actions {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 1.5rem;
+
+}
+
+.contact-alt {
+
+    color: var(--gray);
+
+    font-size: 0.95rem;
+
+}
+
+.contact-alt a {
+
+    color: var(--navy);
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+}
+
+.contact-alt a:hover {
+
+    color: var(--gold);
+
+}
+
+
+/* =====================================
    Footer
 ===================================== */
 
@@ -683,6 +736,3 @@ footer {
         text-align:center;
     }
 }
-
-
-
